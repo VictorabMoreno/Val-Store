@@ -1,0 +1,102 @@
+#depoimentos #grid {
+    padding-top: 170px;
+    width: 90%;
+
+}
+
+#depoimentos #esquerda2 {
+    width: 40%;
+
+}
+
+#depoimentos #direita2 {
+    width: 50%;
+}
+
+#depoimentos img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid gray;
+    margin: 25px;
+}
+
+#depoimentos p {
+    margin: 0;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+#depoimentos span {
+   margin: 0;
+   padding: 7px;
+   font-size: 17px;
+}
+
+#depoimentos .minicard {
+   width: 400px;
+}
+
+#depoimentos .minicard .info {
+   padding: 25px 0;
+   width: 70%;
+   height: 60%;
+}
+
+#depoimentos #direita2 .minicard {
+    margin: 0;
+}
+
+#depoimentos #text {
+    width: 100%;
+    height: 340px;
+    background:rgba(255, 255, 255, 0.137);
+    color: var(--BrancoAnormal);
+    border-radius: 5px;
+}
+
+#textgrid {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+ #align #titulo {
+    width: 100%;
+    height: 10%;
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#align2 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+
+
+#align3 {
+    width: 100%;
+    height: 50%;
+    font-size: 12px;
+    font-weight: 200;
+    padding-top: 40px;
+}
+
+#teste1 {
+    opacity: 1;
+}
+
+#teste2 {
+   opacity: 0.5;
+}
+
+#teste3 {
+   opacity: 0.5;
+}

@@ -1,0 +1,86 @@
+
+#accountpopup {
+    margin-left: 35%;
+    margin-top: 120px;
+    width: 320px;
+    height: 360px;
+    background: white;
+    position: fixed;
+    display: none;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+
+#accountpopup.active {
+    display: flex;
+}
+
+#accountpopup.active ~ .snap {
+    user-select: none;
+    pointer-events: none;
+}
+
+#popupgrid {
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#primordios {
+    width: 100%;
+    height: 20px;
+
+}
+
+#inicio {
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+}
+
+#meio {
+    padding-top: 20px;
+}
+
+#final {
+    text-align: center;
+    padding-top: 0px;
+}
+
+#final p {
+    color: white;
+    line-height: 40px;
+}
+
+#final h2 {
+    font-size: 14px;
+}
+
+#primordios p {
+    float:right;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#inicio h1 {
+    font-size: 22px;
+}
+
+.incomum {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--BrancoAnormal);
+}
+
+#acessopopup {
+    background: var(--PinkFade);
+}
+
+#createpopup {
+    background: var(--BotaoLilas);
+}

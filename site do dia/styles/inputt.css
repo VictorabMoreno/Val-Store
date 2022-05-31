@@ -1,0 +1,86 @@
+:root {
+    --BrancoAnormal: #FFFFFF;
+    --BotaoLilas:#6B61F5;
+    --RoxoFundo:#060022;
+    --CorEntrar:#C0BBF5;
+    --PinkFade:#8A1F4C;
+}
+
+.form-item {
+    position: relative;
+    padding-bottom: 15px;
+    max-width: none;
+}
+
+.nice {
+    width: 100%;
+    height: 45px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    color: var(--BrancoAnormal);
+    font-size: 14px;
+    font-weight: 500;
+    background:rgba(255, 255, 255, 0.295);
+    border: 0px none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.nice:focus {
+    border: 1px solid var(--BotaoLilas);
+}
+
+.nice:valid {
+    border: 1px solid var(--BotaoLilas);
+}
+
+.nice:disabled ~ #legal {
+    font-size: 10px;
+    transform: translateY(-17px);
+    padding: 3px 3px 15px 15px;
+}
+
+.nice:focus ~ #legal {
+    font-size: 10px;
+    transform: translateY(-17px);
+    padding: 3px 3px 15px 15px;
+}
+
+.nice:valid ~ #legal {
+    font-size: 10px;
+    transform: translateY(-17px);
+    padding: 3px 3px 15px 15px;
+}
+
+#legal {
+    position: absolute;
+    padding: 0;
+    color: #ccc;
+    top: 0;
+    line-height: 45px;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: text;
+    transition: 0.2s;
+    font-weight: 400;
+}
+
+#legal {
+    user-select: none;
+    pointer-events: none;
+  }
+
+#submitar {
+    width: 100%;
+    height: 45px;
+    background: var(--BotaoLilas);
+    color: var(--BrancoAnormal);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+

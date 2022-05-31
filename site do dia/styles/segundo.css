@@ -1,0 +1,203 @@
+:root {
+    --BrancoAnormal: #FFFFFF;
+    --BotaoLilas:#6B61F5;
+    --RoxoFundo:#060022;
+    --CorEntrar:#C0BBF5;
+    --PinkFade:#8A1F4C;
+}
+
+body {
+    margin: 0;
+    font-family: DM Sans,Arial,sans-serif;
+    width: 100vw;
+    
+}
+
+#main {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#esquerda {
+    width: 41%;
+    max-width: 41%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#corredor {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.space {
+    width:100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.espaco {
+   width: 50%;
+   height: 50%;
+   margin: auto;
+   padding-top: 200px;
+}
+
+.espaco .imgteste {
+    width: 100%;
+    height: 100%;
+}
+
+#direita {
+    width: 59%;
+    height: 100vh;
+    background: var(--RoxoFundo);
+    overflow-y: auto;
+}
+
+#grid {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    height: 120vh;
+}
+
+#direita p {
+    font-size: 17px;
+    color: var(--CorEntrar);
+    font-weight: 400;
+}
+
+#direita h1 {
+    color: var(--BrancoAnormal);
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.normal {
+    display: none;
+}
+
+#gridsuspeito {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#logo {
+    width: 40%;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    top: 15%;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#botao {
+    width: 60px;
+    height: 10px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    top: 80%;
+    
+}
+
+#jaja1 {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 15px;
+    
+}
+
+#jaja2 {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 15px;
+}
+
+#jaja3 {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 15px;
+}
+
+#teste1 {
+    background:linear-gradient(to right,#060022,#6B61F5,#060022 );
+}
+
+#teste2 {
+    background: linear-gradient(to right,#060022 ,#8A1F4C,#060022  );
+}
+
+#teste3 {
+    background:linear-gradient(to right,#060022,#C0BBF5,#060022 );
+}
+
+#anuncio-cookies {
+    display: inline-flex;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+#checkbox-cookies {
+   display: none;
+    
+}
+
+#help {
+    min-width: 15px;
+    min-height: 15px;
+    border-radius: 3px;
+    background: transparent;
+    margin: 7px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+}
+
+#help.active{
+    border: 1px solid var(--BotaoLilas);
+    background: var(--BotaoLilas);
+}
+
+#warn {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid var(--BotaoLilas);
+    margin-top: 15px;
+}
+
+#acess {
+    text-align: center;
+    
+}
+
+#acess a {
+    text-decoration: none;
+}
+
+#acess p {
+    color: var(--BrancoAnormal);
+}
+
+
+
+

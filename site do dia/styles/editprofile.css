@@ -1,0 +1,419 @@
+
+:root {
+    --BrancoAnormal: #FFFFFF;
+    --BotaoLilas:#6B61F5;
+    --RoxoFundo:#060022;
+    --CorEntrar:#C0BBF5;
+    --PinkFade:#8A1F4C;
+}
+
+#grid hr {
+    margin: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#topo {
+    width: 120px;
+    height: 140px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+#menu p {
+    color: var(--BrancoAnormal);
+    font-size: 18px;
+ }
+
+ #nav p {
+     line-height: 7.5vh;
+     margin: 0;
+     font-weight: 600;
+ }
+
+body {
+    background: white;
+    margin: 0;
+    font-family: DM Sans,Arial,sans-serif;
+}
+
+#displayinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 7.5vh;
+    background: var(--RoxoFundo);
+    padding: 20px 0;
+    position: fixed;
+}
+
+#segurar {
+    
+    width: 60%;
+    height: 80vh;
+    overflow-y:scroll;
+}
+
+#segurar::-webkit-scrollbar {
+    width: 0;
+}
+
+#grid2 {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   height: 100%;
+   justify-content: space-between;
+}
+
+#img {
+   width: 30%;
+}
+
+#img img {
+   width: 60%;
+   height: 100%;
+}
+
+#nav { 
+  width:20% ;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#nav .menu  {
+   flex: 1;
+   height: 100%;
+   background: transparent;
+}
+
+.menu p {
+   color: var(--CorEntrar);
+   font-size: 16px;
+}
+
+#editprofile {
+    width: 100%;
+    height: 90vh;
+}
+
+#grid {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 160px;
+    justify-content: space-between;
+   
+}
+
+#left {
+    width: 30%;
+    height: 100%;
+}
+
+#right {
+    width: 100%;
+    height: 100%;
+}
+
+.subperfil {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+}
+
+.subperfil svg {
+    padding: 0 0px;
+    color: var(--BotaoLilas);
+}
+
+.subperfil h2 {
+    padding: 0 10px;
+    margin: 0;
+}
+
+#conteudo {
+    padding-top: 40px;
+}
+
+#align {
+    width: 74%;
+    margin: auto;
+}
+
+
+
+#align h1 {
+    font-size: 18px;
+}
+
+/* inputs  */
+
+.form-item {
+    position: relative;
+    padding-bottom: 15px;
+    max-width: none;
+}
+
+.nice {
+    width: 250px;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 5px 15px 0px;
+    color: var(--RoxoFundo);
+    font-size: 13px;
+    font-weight: 500;
+    background:rgba(204, 204, 204, 0.24);
+    border: 0px none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    letter-spacing: 1.0px;
+}
+
+.nice:focus {
+    border: 1px solid var(--BotaoLilas);
+}
+
+.nice:valid {
+    border: 1px solid var(--BotaoLilas);
+}
+
+.nice:disabled ~ .legal {
+    font-size: 10px;
+    transform: translateY(-17px);
+    padding: 3px 3px 15px 15px;
+}
+
+.nice:focus ~ .legal {
+    font-size: 10px;
+    transform: translateY(-17px);
+    padding: 3px 3px 15px 15px;
+}
+
+.nice:valid ~ .legal {
+    font-size: 10px;
+    transform: translateY(-17px);
+    padding: 3px 3px 15px 15px;
+}
+
+.legal {
+    padding: 0;
+    color: var(--RoxoFundo);
+    top: 0;
+    line-height: 45px;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: text;
+    transition: 0.2s;
+    font-weight: 400;
+    position: absolute;}
+
+ #legal {
+     color: #060022a9;
+     padding: 0;
+     top: 0;
+     line-height: 45px;
+     padding: 0 15px;
+     font-size: 14px;
+     cursor: text;
+     transition: 0.2s;
+     font-weight: 400;
+     position: absolute;
+ }   
+
+.legal {
+    user-select: none;
+    pointer-events: none;
+  }
+
+  #block {
+    user-select: none;
+    pointer-events: none;
+  }
+
+#ftperfil {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}  
+
+#ftperfil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#label {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+
+
+#perfilft {
+    display: none;
+}
+
+#submitbtn {
+    float: right;
+    color: var(--BrancoAnormal);
+    border:none;
+    background: var(--BotaoLilas);
+    border-radius: 10px;
+    width: 125px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.batata {
+    width: 60px;
+    height: 60px;
+    background: green;
+    margin-top: 30px;
+}
+
+#griddd {
+    width: 100%;
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.minicard {
+    width: 220px;
+    height: 105px;
+    background: var(--RoxoFundo);
+    color: var(--BrancoAnormal);
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#griddd a {
+    text-decoration: none;
+    color: var(--BrancoAnormal);
+}
+
+ #griddd img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid gray;
+    margin: 25px;
+}
+
+ p {
+    margin: 0;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+ #griddd span {
+   margin: 0;
+   padding: 7px;
+   font-size: 17px;
+}
+
+ .minicard {
+   width: 400px;
+}
+
+ .minicard .info {
+   padding: 25px 0;
+   width: 70%;
+   height: 60%;
+}
+
+ #direita2 .minicard {
+    margin: 0;
+}
+
+ #text {
+    width: 100%;
+    height: 340px;
+    background:rgba(255, 255, 255, 0.137);
+    color: var(--BrancoAnormal);
+    border-radius: 5px;
+}
+
+#textgrid {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    height:100% ;}
+
+    #align #titulo {
+        width: 100%;
+        height: 10%;
+        padding-top: 20px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    #align2 {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+    }
+    
+    
+    
+    #align3 {
+        width: 100%;
+        height: 50%;
+        font-size: 12px;
+        font-weight: 200;
+        padding-top: 40px;
+    }
+
+    #agrupar {
+        width: 80%;
+        margin: 10px auto;
+        height: 250px;
+        border: 2px solid black;
+        font-size: 12px;
+    }
+
+    #agrupar p {
+        font-size: 10px;
+    }
+
+    #aligner #display {
+        cursor: pointer;
+    }
+
+    #createuser {
+        width: 100%;
+    }
+
+    #gride {
+        width: 60%;
+        margin: auto;
+    }
+
+    #gride h1 {
+        padding: 20px 0;
+    }
+    
+

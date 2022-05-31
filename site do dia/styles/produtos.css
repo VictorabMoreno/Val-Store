@@ -1,0 +1,113 @@
+#produtos {
+     background: var(--RoxoFundo);
+     height: 100vh;
+ }
+ 
+ #produtos #grid {
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 50px;
+ }
+
+ .card {
+     width: 225px;
+     height: 305px;
+     box-shadow: 0px 0px 2em var(--PinkFade);
+     border-radius: 10px;
+ }
+
+ .img {
+     width: 100%;
+     height: 80%;
+     border-radius:10px 10px 0 0 ;
+ }
+
+ .img img {
+     width: 100%;
+     height: 100%;
+     border-radius: 10px 10px 0 0;
+ }
+
+ .conteudo {
+     width: 100%;
+     height: 30%;
+ }
+
+ .titulo {
+     width: 100%;
+     height: 13%;
+     color: var(--BrancoAnormal);
+     text-align: center;
+ }
+
+ .titulo p {
+     padding: 5px 0px;
+     margin: 0;
+     font-size: 16px;
+     font-weight: 500;
+     letter-spacing: 0.5px;
+ }
+
+ #button {
+    width: 70%;
+    height: 20px;
+    margin: auto;
+    color: var(--BrancoAnormal);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+#button p {
+    margin: 0;
+}
+
+#valueyeah {
+    cursor: pointer;
+}
+
+#valueyeah:hover {
+    color: var(--BotaoLilas);
+}
+
+#areadepesquisa {
+    width: 100%;
+    height: 70px;
+    background: transparent;
+    padding-top: 120px;
+}
+
+#alignner {
+    width: 600px;
+    height: 100%;
+    float: right;
+    padding-right: 40px;
+} 
+
+#search {
+    width: 170px;
+    height: 30px;
+}
+
+#searchsub {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    background: var(--PinkFade);
+    border: none;
+    color: var(--BrancoAnormal);
+}
+
+#filter {
+    width: 100px;
+    height: 30px;
+    background: var(--RoxoFundo);
+    color: var(--BrancoAnormal);
+    border-color: var(--BotaoLilas);
+    padding-left: 20px;
+}
